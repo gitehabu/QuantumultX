@@ -9,18 +9,18 @@
 ;到配置文件找到[rewrite_remote]贴代码：
 
 ;签到cookie获取
-https://raw.githubusercontent.com/CenBoMin/QuantumultX/master/Scripts/Youth/Youth_cookie.conf, tag=YouthCookie, update-interval=86400, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/gitehabu/QuantumultX/master/Scripts/Youth/Youth_cookie.conf, tag=YouthCookie, update-interval=86400, opt-parser=false, enabled=true
 ;阅读body获取
-https://raw.githubusercontent.com/CenBoMin/QuantumultX/master/Scripts/Youth/Youth_GetBody.conf, tag=YouthGetBody, update-interval=86400, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/gitehabu/QuantumultX/master/Scripts/Youth/Youth_GetBody.conf, tag=YouthGetBody, update-interval=86400, opt-parser=false, enabled=true
 
 ## 2.定时任务：
 ;到配置文件找到[task_local]贴代码：
 
 ;签到&转盘任务
 
-30 0-23 * * * https://raw.githubusercontent.com/CenBoMin/QuantumultX/master/Scripts/Youth/youth.js, tag=中青看点极速版, img-url=https://raw.githubusercontent.com/Orz-3/task/master/youth.png, enabled=true
+30 0-23 * * * https://raw.githubusercontent.com/gitehabu/QuantumultX/master/Scripts/Youth/youth.js, tag=中青看点极速版, img-url=https://raw.githubusercontent.com/Orz-3/task/master/youth.png, enabled=true
 ;自动阅读任务
-10 1-23 * * * https://raw.githubusercontent.com/CenBoMin/QuantumultX/master/Scripts/Youth/Youth_AutoRead.js, tag=中青阅读, img-url=https://raw.githubusercontent.com/Orz-3/task/master/youth.png, enabled=true
+10 1-23 * * * https://raw.githubusercontent.com/gitehabu/QuantumultX/master/Scripts/Youth/Youth_AutoRead.js, tag=中青阅读, img-url=https://raw.githubusercontent.com/Orz-3/task/master/youth.png, enabled=true
 
 
 ## 3.食用方法：
