@@ -59,7 +59,7 @@ let cookiesArr = [], signheaderVal = '',
     timeArr = [], timebodyVal = '',
     redpArr = [], redpbodyVal = '',
     detail = ``, subTitle = ``;
-let CookieYouth = [], ARTBODYs = [],
+let CookieYouth = [Hm_lvt_6c30047a5b80400b0fd3f410638b8f0c], ARTBODYs = [],
     REDBODYs  = [], READTIME = [];
 if ($.isNode()) {
   if (process.env.YOUTH_HEADER && process.env.YOUTH_HEADER.indexOf('#') > -1) {
