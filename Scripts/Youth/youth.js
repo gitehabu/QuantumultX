@@ -17,7 +17,6 @@ https://raw.githubusercontent.com/gitehabu/QuantumultX/master/Scripts/Youth/Yout
 ;到配置文件找到[task_local]贴代码：
 
 ;签到&转盘任务
-
 30 0-23 * * * https://raw.githubusercontent.com/gitehabu/QuantumultX/master/Scripts/Youth/youth.js, tag=中青看点极速版, img-url=https://raw.githubusercontent.com/Orz-3/task/master/youth.png, enabled=true
 ;自动阅读任务
 10 1-23 * * * https://raw.githubusercontent.com/gitehabu/QuantumultX/master/Scripts/Youth/Youth_AutoRead.js, tag=中青阅读, img-url=https://raw.githubusercontent.com/Orz-3/task/master/youth.png, enabled=true
